@@ -8,6 +8,10 @@ Ordinary notes. Old parchment. A candlelit desk.
 
 **Free desktop reader · Local files · No account required**
 
+[Visit the website](https://gelder-scrolls.vercel.app) · [Release status](https://github.com/Eris-Margeta/gelder-scrolls-public/releases)
+
+[![Website checks](https://github.com/Eris-Margeta/gelder-scrolls-public/actions/workflows/website.yml/badge.svg)](https://github.com/Eris-Margeta/gelder-scrolls-public/actions/workflows/website.yml)
+
 </div>
 
 Gelder Scrolls turns Markdown documents into a reading experience at a scholar’s desk: textured parchment, ornate wooden rollers, warm candlelight, and a quiet optional soundscape. Your original files stay untouched.
@@ -17,6 +21,10 @@ Gelder Scrolls turns Markdown documents into a reading experience at a scholar�
 Public release engineering is in progress. A verified, notarized macOS download will be linked here when ready. Windows and Linux desktop builds are also in development; they are not yet available downloads.
 
 We do not recommend bypassing Gatekeeper or running unsigned development artifacts as a substitute for an official release.
+
+## Website development
+
+The landing page is a dependency-free static site in `website/`. Run `node --test tests/website.test.mjs` to check page structure, local assets, release-state metadata and security headers. Deploy that directory to Vercel. The download manifest remains in `preparing` state until an actual signed and notarized release is verified.
 
 ## The experience
 
