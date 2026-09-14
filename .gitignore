@@ -1,0 +1,38 @@
+# Private project records must never enter this repository or its history.
+PROJECT-INTERNAL/
+.template/
+AGENTS.md
+**/AGENTS.md
+CLAUDE.md
+**/CLAUDE.md
+project-meta.yaml
+eriscode.config.json
+.eris-code/
+.dctx/
+*.dctx
+*.llmcontext.txt
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.key
+*.mobileprovision
+.vercel/
+.DS_Store
+
+# Reproducible output
+.build/
+node_modules/
+dist/
+out/
+release/
+*.app
+*.dmg
+*.zip
+*.log
+__pycache__/
+*.pyc
+*.blend1
