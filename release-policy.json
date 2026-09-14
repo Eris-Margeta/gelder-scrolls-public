@@ -1,0 +1,5 @@
+{
+  "redistributionCleared": false,
+  "reason": "Handwriting dependency and model redistribution must be resolved before publishing app binaries.",
+  "platforms": { "macOS": "preparing", "windows": "planned", "linux": "planned" }
+}
